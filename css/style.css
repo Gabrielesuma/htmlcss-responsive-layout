@@ -136,10 +136,19 @@ nav{
     .img-content img{
         width: 60%;
     }
+
     .container{
         display: flex;
-        width: calc(100% / 5);
         flex-wrap: wrap;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% / 5);
+    }
+    #big-card{
+        width: calc((100% / 5) * 2);
     }
 
 }
